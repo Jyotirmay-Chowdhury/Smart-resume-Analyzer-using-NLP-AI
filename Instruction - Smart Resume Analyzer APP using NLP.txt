@@ -1,0 +1,55 @@
+Follow this Steps to Run this web APP without error
+
+for Download the code file manually or via git
+
+1) python3 -m venv venvapp or python -m venv venvapp
+
+2) cd venvapp/Scripts
+
+3) activate
+
+4) cd../..
+
+5) cd App
+
+6) pip install -r requirements.txt
+
+7) python -m spacy download en_core_web_sm
+
+8) Create a DataBase in mysql or in xampp server  (host='localhost',user='Root',password='root@MySQL4admin',db='cv') db mean's DataBase and Save it.  For Data Use this Credentials:- connection = pymysql.connect(host='localhost',user='Root',password='root@MySQL4admin',db='cv')
+ 
+9) streamlit run App.py
+
+10) Here we Go our web Application is running on Default Browser or you can host this application.
+
+11) Admin Data:- Username:- | admin |  Password:- admin@resume-analyzer
+
+use Python 3.9.12 or higher for better performance
+
+Thank You ! 
+
+Script Developed By Jyotirmay Chowdhury
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+After install all this commands use to directly use this project:- 
+
+cd venvapp/Scripts
+
+activate
+
+cd../..
+
+cd App
+
+streamlit run App.py
+
+(First enable apache and Mysql server in xampp server to not face any database error)
+
+----------------------------------------------------------------------------------------------------------------------------
+
+python -m nltk.downloader stopwords    ---- (If You getting Error as LookupError for nltk use this command)
+
+Link:- https://stackoverflow.com/questions/41610543/corpora-stopwords-not-found-when-import-nltk-library
+
